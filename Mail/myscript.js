@@ -12,6 +12,7 @@ const accessList = [
 ];
 console.log(accessList);
 
+// INCLUDES
 if (accessList.includes(email)) {
   alert("Login successful!");
   console.log("Login successful!");
@@ -19,3 +20,19 @@ if (accessList.includes(email)) {
   alert("Access denied!");
   console.log("Access denied!");
 }
+
+// FOR
+// let security = false;
+
+// for (let i = 0; i < accessList.length; i++) {
+//   if (email == accessList[i]) {
+//     security = true;
+//     alert("Login successful!");
+//     console.log("Login successful!");
+//   }
+// }
+
+// if (security == false) {
+//   alert("Acess denied!");
+//   console.log("Acess denied!");
+// }
