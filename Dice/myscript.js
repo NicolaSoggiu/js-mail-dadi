@@ -1,7 +1,7 @@
 // EXCERCISE DICE
 
-let firstNumber = Math.floor(Math.random() * (6 - 1 + 1));
-let secondNumber = Math.floor(Math.random() * (6 - 1 + 1));
+let firstNumber = Math.floor(Math.random() * 6) + 1;
+let secondNumber = Math.floor(Math.random() * 6) + 1;
 
 if (firstNumber > secondNumber) {
   alert(firstNumber + " " + "User win!");
